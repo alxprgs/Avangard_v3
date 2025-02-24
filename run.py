@@ -1,6 +1,8 @@
 import uvicorn
 import asyncio
-from server import client, logger
+from server import app
+from server.database import client
+from server.logging import logger
 import os
 
 async def main():

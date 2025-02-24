@@ -1,6 +1,7 @@
 from . import routerv1
 from fastapi import Body, Depends
-from server import database, logger
+from server.database import database
+from server.logging import logger
 from fastapi.responses import JSONResponse
 from server.functions import get_next_id, create_hash, validate_api_key
 import secrets

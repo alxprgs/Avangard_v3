@@ -1,6 +1,7 @@
 from pymongo.collection import Collection
 import bcrypt
-from server import logger, api_key_header
+from .security import api_key_header
+from .logging import logger
 import os 
 from fastapi import Depends, HTTPException, status
 

@@ -8,7 +8,7 @@ colorlog==6.9.0
 dnspython==2.7.0
 fastapi==0.115.8
 fastapi-limiter==0.1.6
-h11==0.14.0
+h11==0.16.0
 httpcore==1.0.7
 httpx==0.28.1
 idna==3.10
